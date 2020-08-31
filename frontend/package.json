@@ -1,0 +1,20 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "This frontend part for softzone stor ecommerce project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch-content-base --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mustafa2nori",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
